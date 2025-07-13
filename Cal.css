@@ -1,0 +1,161 @@
+body {
+    display: grid;
+    justify-content: center;
+    margin-top: 200px;
+    background-color: rgb(30, 32, 47);
+}
+
+.calculator{
+    border: 2px solid rgb(62, 36, 174);
+    padding: 5px;
+    padding-top: 9px;
+    background-color: rgb(88, 16, 147);
+}
+
+.display {
+    padding-top: 60px;
+    border-radius: 10px;
+    padding-left: 12px;
+    background-color: blueviolet;
+    color: white;
+    font-size: larger;
+}
+
+.key {
+    cursor: pointer;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(118, 118, 210);
+}
+
+.key:hover {
+    background-color: rgb(145, 145, 222);
+}
+
+.key-ac {
+    margin: 5px;
+    padding: 20px;
+    padding-right:70px ;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(230, 77, 38);
+}
+
+.key-ac:hover {
+    background-color: rgb(230, 104, 95);
+}
+
+.key-clr {
+    margin: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(191, 65, 229);
+}
+
+.key-clr:hover {
+    background-color: rgb(206, 115, 234);
+}
+
+.key-del {
+    margin: 5px;
+    padding: 20px;
+    padding-left: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(236, 63, 63, 0.874);
+}
+
+.key-del:hover {
+    background-color: rgba(238, 91, 91, 0.874);
+
+}
+
+.key-div {
+    margin: 5px;
+    padding: 20px;
+    padding-left: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(236, 148, 53);
+}
+
+.key-div:hover {
+    background-color: rgb(227, 165, 99);
+}
+
+.key-add {
+    margin: 5px;
+    padding: 20px;
+    padding-left: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(236, 148, 53);
+}
+
+.key-add:hover {
+    background-color: rgb(227, 165, 99);
+}
+
+.key-mul {
+    margin: 5px;
+    padding: 20px;
+    padding-left: 27px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(236, 148, 53);
+}
+
+.key-mul:hover {
+    background-color: rgb(227, 165, 99);
+}
+
+.key-min {
+    margin: 5px;
+    padding: 20px;
+    padding-left: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(236, 148, 53);
+}
+
+.key-min:hover {
+    background-color: rgb(227, 165, 99);
+}
+
+.key-point {
+    margin: 5px;
+    padding: 20px;
+    font:bolder;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(118, 118, 210);
+}
+
+.key-point:hover {
+    background-color: rgb(145, 145, 222);
+}
+
+.key-ans {
+    margin: 5px;
+    padding: 20px;
+    padding-left: 75px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(95, 198, 74);
+}
+
+.key-ans:hover {
+    background-color: rgb(143, 214, 129);
+}
